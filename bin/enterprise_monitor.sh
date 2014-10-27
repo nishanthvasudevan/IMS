@@ -2,7 +2,7 @@
 
 #set -x
 
-MONITOR_HOST=10.1.1.4
+MONITOR_HOST=w.x.y.z
 MONITOR_HOME=/home/monitor
 MONITOR_BIN=${MONITOR_HOME}/bin
 MONITOR_VAR=${MONITOR_HOME}/var
@@ -97,6 +97,6 @@ fi
 
 echo "-----------------------------------------------------------------------------------------------------------------------------------------------------"
 
-echo "Cleaning up temporary files from cuda2:${MONITOR_TMP}"
+echo "Cleaning up temporary files from ${MONITOR_TMP}"
 rm -f ${MONITOR_TMP}/$$.*
 #rm -f ${MONITOR_TMP}/enterprise_state
