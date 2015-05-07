@@ -1,5 +1,5 @@
-Infrastructure Monitoring System written using Python
-=====================================================
+Infrastructure Monitoring System
+================================
 
 This is a monitoring system written mostly using Python and Bash.  
 Assets to be monitored send their service status to predefined location for that asset.  
